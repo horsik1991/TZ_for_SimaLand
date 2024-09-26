@@ -1,5 +1,29 @@
 @import '../includes/vars.styl' 
     
-body
-    background-color primeColor
+//Основной цвет для блока заголовков
+bgcColor = #F298DB
+textColor = #fff
+btnColor = #1F84DB
+
+.innerWrap
+    max-width: 600px    
+.title
+    background-color bgcColor
+    min-height: 46px
+    color textColor
+    display flex
+    justify-content center
+    align-items center
+    font:700 24px/27.6px Arial, sans-serif
+.btn
+    display flex
+    margin 0 auto
+    color textColor
+    background-color btnColor
+    padding 8px 20px
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius:2px
 
