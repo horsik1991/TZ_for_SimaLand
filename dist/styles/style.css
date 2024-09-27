@@ -27,10 +27,8 @@
   background-color: #f298db;
   min-height: 46px;
   color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font: 700 24px/27.6px Arial, sans-serif;
+  padding: 8px 20px;
 }
 .btn {
   display: inline-block;
@@ -42,6 +40,10 @@
   font-weight: 700;
   line-height: 24px;
   border-radius: 2px;
+}
+.titleWrap {
+  text-align: center;
+  width: 100%;
 }
 
 * {

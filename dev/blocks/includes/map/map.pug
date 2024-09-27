@@ -1,5 +1,6 @@
 .map.innerWrap 
-    h2.title Как попасть на выставку
+    .titleWrap
+        h2.title Как попасть на выставку
     ol.map__description
         li.map__item Пройти онлайн-регистрацию на 
             a(href="https://www.cjf-expo.ru/") сайте выставки.
@@ -14,4 +15,6 @@
     .map__container 
         iframe(src="https://yandex.ru/map-widget/v1/?um=constructor%3A07030378c3425925ac05822d6e97297b2ca91d2927f28fce764998887ad4f061&amp;source=constructor" width="600" height="250" frameborder="0")
     .map__btn
-        button.btn Зарегистрироваться
+        a(style={'background-color': '#1F84DB', 'color': '#fff', 'display':'inline-block', 'padding':'8px 20px', 'font-size':'16px','font-family':'Arial', 'font-weight':'700','border-radius':'2px'} href="https://www.cjf-expo.ru/ru/visitors/ticket/?step=step1") Зарегистрироваться
+
+    
